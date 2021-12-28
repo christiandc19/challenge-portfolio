@@ -84,7 +84,7 @@ nav div {
     margin: 25px 25px 25px 25px;
     color: var(--tertiary-color);
     border-left: 3px solid var(--tertiary-color);
-    padding-left: 25px;
+    padding-left: 50px;
 }
 
 .myWork {
@@ -117,7 +117,7 @@ nav div {
     padding-left: 25px;
 }
 
-.work h2 {
+.work-1 h2 {
     width: 200px;
     color: white;
     background-color: #2E4C6D;
@@ -126,11 +126,12 @@ nav div {
 .work-1 {
     width: 1150px;
     height: 500px;
+    margin-left: 25px;
     background-color: var(--primary-color);
 
 }
 .work-container {
-    width: 500px;
+    width: 530px;
     height: 200px;
     background-color: var(--primary-color);
 
