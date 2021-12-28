@@ -97,6 +97,7 @@ nav div {
     font-size: 40px;
     text-align: right;
     margin-top: 20px;
+    margin-left: 8px;
     color: var(--tertiary-color);
 }
 
@@ -104,9 +105,33 @@ nav div {
     margin: 25px 25px 25px 25px;
     color: var(--tertiary-color);
     border-left: 3px solid var(--tertiary-color);
-    padding-left: 25px;
+    padding-left: 5px;
 }
 
 .work {
     display: flex;
+    flex-wrap: wrap;
+    margin: 25px 25px 25px 25px;
+    color: var(--tertiary-color);
+    border-left: 3px solid var(--tertiary-color);
+    padding-left: 25px;
+}
+
+.work h2 {
+    width: 200px;
+    color: white;
+    background-color: #2E4C6D;
+}
+
+.work-1 {
+    width: 1150px;
+    height: 500px;
+    background-color: var(--primary-color);
+
+}
+.work-container {
+    width: 500px;
+    height: 200px;
+    background-color: var(--primary-color);
+
 }
