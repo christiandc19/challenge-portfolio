@@ -134,10 +134,17 @@ footer {
 .footer-contacts {
     display: flex;
     flex-wrap: wrap;
+    width: 1050px;
     justify-content: space-around;
+    margin: 25px 25px 25px 30px;
+    color: var(--tertiary-color);
+    border-left: 3px solid var(--tertiary-color);
+    padding-left: 15px;
 }
 
 footer h1 {
+    width: 200px;
+    display: flex;
     font-size: 40px;
     text-align: right;
     margin-top: 20px;
@@ -148,5 +155,5 @@ footer p {
     margin: 25px 25px 25px 25px;
     color: var(--tertiary-color);
     border-bottom: 3px solid var(--tertiary-color);
-    padding: 0;
+    padding: 0px; 
 }
