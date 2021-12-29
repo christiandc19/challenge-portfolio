@@ -45,29 +45,8 @@ nav div {
     color: var(--secondary-color);
 }
 
+
 .hero {
-    position: relative;
-}
-
-.hero img {
-    height: 200px;
-    width: 100%;
-}
-
-.cool h1 {
-    height: 50px;
-    width: 250px;
-    background-color: var(--secondary-color);
-    position: absolute;
-    top: 130px;
-    left: 1200px;
-}
-
-#cool-text {
-    padding: 10px 10px 10px 10px;
-}
-
-.hero1 {
     width: 100%;
     height: 300px;
     background: url(./images/hero-bg.jpg) no-repeat center;
@@ -100,7 +79,7 @@ nav div {
     margin: 25px 25px 25px 25px;
     color: var(--tertiary-color);
     border-left: 3px solid var(--tertiary-color);
-    padding-left: 50px;
+    padding-left: 25px;
 }
 
 .myWork {
@@ -117,20 +96,12 @@ nav div {
     color: var(--tertiary-color);
 }
 
-.work-container {
-    margin: 25px 25px 25px 25px;
-    color: var(--tertiary-color);
-    border-left: 3px solid var(--tertiary-color);
-    padding-left: 5px;
-}
-
 .work {
     display: flex;
     flex-wrap: wrap;
     margin: 25px 25px 25px 25px;
     color: var(--tertiary-color);
     border-left: 3px solid var(--tertiary-color);
-    padding-left: 25px;
 }
 
 .work-1 h2 {
@@ -140,16 +111,20 @@ nav div {
 }
 
 .work-1 {
-    width: 1150px;
+    width: 970px;
     height: 500px;
     margin-left: 25px;
+    background: url(./images/work1.jpg) no-repeat center;
+    background-size: 100%;
     background-color: var(--primary-color);
-
 }
+
 .work-container {
-    width: 530px;
+    width: 473px;
     height: 200px;
-    background-color: var(--primary-color);
+    margin: 25px 0px 25px 25px;
+    background: url(./images/work1.jpg) no-repeat center;
+    background-size: 100%;
 }
 
 footer {
@@ -173,5 +148,5 @@ footer p {
     margin: 25px 25px 25px 25px;
     color: var(--tertiary-color);
     border-bottom: 3px solid var(--tertiary-color);
-    padding-left: 50px;
+    padding: 0;
 }
