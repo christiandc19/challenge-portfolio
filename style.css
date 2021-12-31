@@ -75,11 +75,16 @@ nav div {
     color: var(--tertiary-color);
 }
 
+.myBio {
+    border-left: 3px solid var(--tertiary-color);
+    margin: 25px 25px 25px 25px;
+    display: flex;
+}
+
 .aboutMe p {
+    float: right;
     margin: 25px 25px 25px 25px;
     color: var(--tertiary-color);
-    border-left: 3px solid var(--tertiary-color);
-    padding-left: 25px;
 }
 
 .myWork {
@@ -125,6 +130,10 @@ nav div {
     margin: 25px 0px 25px 25px;
     background: url(./images/work1.jpg) no-repeat center;
     background-size: 100%;
+}
+
+.work div:hover {
+    border: green;
 }
 
 footer {
