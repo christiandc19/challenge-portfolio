@@ -110,7 +110,8 @@ nav div {
 }
 
 .work-1 h2 {
-    width: 200px;
+    padding: auto;
+    text-align: center;    
     color: white;
     background-color: #2E4C6D;
 }
@@ -128,13 +129,18 @@ nav div {
     width: 473px;
     height: 200px;
     margin: 25px 0px 25px 25px;
+    border: 5px solid var(--secondary-color);
     background: url(./images/work1.jpg) no-repeat center;
+    opacity: 0.75;
+
     background-size: 100%;
 }
 
-.work div:hover {
-    border: green;
+.work-container:hover {
+    opacity: 1;
+
 }
+
 
 footer {
     display: flex;
@@ -155,7 +161,6 @@ footer h1 {
     width: 200px;
     display: flex;
     font-size: 40px;
-    text-align: right;
     margin-top: 20px;
     color: var(--tertiary-color);
 }
@@ -165,4 +170,56 @@ footer p {
     color: var(--tertiary-color);
     border-bottom: 3px solid var(--tertiary-color);
     padding: 0px; 
+}
+
+
+@media only screen and (max-width: 550px) {
+    
+    .aboutMe {
+        margin: 25px 25px 25px 25px;
+        display: flex;
+        flex-direction: column;
+    }
+    .aboutMe h1 {
+        text-align: center;
+    }
+    .myBio {
+        flex-direction: column;
+        border: none;
+    }
+    .myWork{
+        flex-direction: column;
+        margin: 0;
+    }
+    .myWork h1 {
+    text-align: center;    }
+    
+.work {
+        border: none;
+    }
+    .nav-menu-container li {
+        margin-right: 5px;
+    }
+
+    nav {
+        flex-direction: column;
+    }
+    .hero-title {
+        margin: 230px 10px 10px 50px;
+    }
+
+    footer {
+        flex-direction: column;
+    }
+
+    .footer-contacts {
+        border: none;
+        padding-left: 5px;
+    }
+    footer div h1{
+        width: 210px;
+    }
+    footer h1 {
+        text-align: center;
+    }
 }
