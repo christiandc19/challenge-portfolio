@@ -138,6 +138,8 @@ nav div {
 
 .work-container:hover {
     opacity: 1;
+    width: 500px;
+    height: 250px;
 
 }
 footer {
