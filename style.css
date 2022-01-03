@@ -138,9 +138,6 @@ nav div {
 
 .work-container:hover {
     opacity: 1;
-    width: 500px;
-    height: 250px;
-
 }
 footer {
     display: flex;
@@ -209,6 +206,72 @@ footer p {
     nav {
         flex-direction: column;
     }
+    .hero-title {
+        margin: 230px 10px 10px 50px;
+    }
+
+    footer {
+        flex-direction: column;
+    }
+
+    .footer-contacts {
+        width: fit-content;
+        border: none;
+        margin: 0;
+        padding: 0;
+        padding-left: 5px;
+    }
+    footer h1{
+        width: 210px;
+        text-align: center;
+    }
+
+    footer p {
+        margin: 25px 5px 5px 25px;
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+    
+    .logo-container {
+        margin: 10px 90px
+    }
+
+    .aboutMe {
+        margin: 25px 25px 25px 25px;
+        display: flex;
+        flex-direction: column;
+    }
+    .aboutMe h1 {
+        text-align: center;
+    }
+    .myBio {
+        flex-direction: column;
+        border: none;
+    }
+    .myWork{
+        flex-direction: column;
+    }
+    .myWork h1 {
+    text-align: center;    }
+
+    .myBio p {
+        text-align: center;
+    }
+    
+    .work {
+        border: none;
+    }
+
+    .nav-menu-container li {
+        margin-right: 5px;
+    }
+
+    nav {
+        flex-direction: column;
+    }
+
     .hero-title {
         margin: 230px 10px 10px 50px;
     }
