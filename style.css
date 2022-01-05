@@ -58,8 +58,11 @@ nav div {
     color: white;
     float: right;
     margin-bottom: 0;
-    margin-top: 10%;
-    padding-right: 100px;
+    margin-right: 100px;
+    margin-top: 20%;
+    background-color: var(--secondary-color);
+    width: fit-content;
+    padding: 15px 50px;
 }
 
 .aboutMe {
@@ -83,7 +86,7 @@ nav div {
 
 .aboutMe p {
     float: right;
-    margin: 25px 25px 25px 25px;
+    margin: 25px 50px 25px 50px;
     color: var(--tertiary-color);
 }
 
@@ -109,18 +112,24 @@ nav div {
     border-left: 3px solid var(--tertiary-color);
 }
 
-.work-1 h2 {
-    padding: auto;
-    text-align: center;    
-    color: white;
-    background-color: #2E4C6D;
+
+.work-title {
+    margin-top: 80px;
+    width: 150px;
+    height: 70px;
+    background-color: var(--secondary-color);
 }
 
+.work-title h2 {
+    padding-top: 7px;
+}
+
+.work img {
+    width: 200px;
+    height: 200px;
+}
 .work-1 {
-    width: 970px;
-    height: 500px;
     margin-left: 25px;
-    background: url(./images/work1.jpg) no-repeat center;
     background-size: 100%;
     background-color: var(--primary-color);
 }
@@ -129,16 +138,15 @@ nav div {
     width: 473px;
     height: 200px;
     margin: 25px 0px 25px 25px;
+    background: url(./images/hero-bg.jpg) no-repeat center;
     border: 5px solid var(--secondary-color);
-    background: url(./images/work1.jpg) no-repeat center;
-    opacity: 0.75;
-
     background-size: 100%;
 }
 
 .work-container:hover {
-    opacity: 1;
+    transform: scale(1.15);
 }
+
 footer {
     display: flex;
 }
@@ -172,7 +180,10 @@ footer p {
 
 
 @media only screen and (max-width: 550px) {
-    
+
+    .hero-title{
+        background-color: var(--secondary-color);
+    }
     .aboutMe {
         margin: 25px 25px 25px 25px;
         display: flex;
@@ -189,8 +200,7 @@ footer p {
         flex-direction: column;
         margin: 0;
     }
-    .myWork h1 {
-    text-align: center;    }
+
 
     .myBio p {
         text-align: center;
@@ -234,8 +244,18 @@ footer p {
 
 @media only screen and (max-width: 768px) {
     
+    .hero-title{
+        color: white;
+        float: right;
+        margin-bottom: 0;
+        margin-right: 80px;
+        margin-top: 30%;
+        background-color: var(--secondary-color);
+        width: fit-content;
+        padding: 15px 50px;
+    }
     .logo-container {
-        margin: 10px 90px
+        margin: 10px 30px
     }
 
     .aboutMe {
