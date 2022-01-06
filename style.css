@@ -132,65 +132,6 @@ nav div {
 }
 
 
-
-/* .myWork {
-    display: flex;
-    margin-left: 100px;
-    margin-right: 100px;
-}
-
-.myWork h1 {
-    font-size: 40px;
-    text-align: right;
-    margin-top: 20px;
-    margin-left: 8px;
-    color: var(--tertiary-color);
-}
-
-.work {
-    display: flex;
-    flex-wrap: wrap;
-    margin: 25px 25px 25px 25px;
-    color: var(--tertiary-color);
-    border-left: 3px solid var(--tertiary-color);
-
-}
-
-
-.work-title {
-    margin-top: 80px;
-    width: 150px;
-    height: 70px;
-    background-color: var(--secondary-color);
-}
-
-.work-title h2 {
-    padding-top: 7px;
-}
-
-.work img {
-    width: 200px;
-    height: 200px;
-}
-.work-1 {
-    margin-left: 25px;
-    background-size: 100%;
-    background-color: var(--primary-color);
-}
-
-.work-container {
-    width: 473px;
-    height: 200px;
-    margin: 25px 0px 25px 25px;
-    background: url(./images/hero-bg.jpg) no-repeat center;
-    border: 5px solid var(--secondary-color);
-    background-size: 100%;
-}
-
-.work-container:hover {
-    transform: scale(1.15);
-} */
-
 footer {
     display: flex;
 }
@@ -227,31 +168,104 @@ footer p {
 }
 
 
-@media only screen and (max-width: 575px) {
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 980px) {
+    .aboutMe {
+    flex-direction: column;
+    margin: 0%;
+    text-align: center;
+    }
+
+    .aboutMe-header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .myBio img {
+        width: 40%;
+        height: 40%px;
+    }
+    
+    .myBio {
+        margin-top: 50px;
+    }
+
+    .myBio h1 {
+        margin-top: 80px;
+    }
+
+    .myWork {
+        flex-direction: column;
+    }
+
+    .flex {
+        display: flex;
+    }
+   
+    .proj-row-1 {
+        width: 90%;
+    }
+
+    footer {
+        flex-direction: column;
+    }
+    .footer-title h1 {
+        border: none;
+        width: fit-content;
+        margin-left: 350px;
+    }
+
+}
+
+
+
+@media screen and (max-width: 575px) {
 
     .hero-title{
         background-color: var(--secondary-color);
     }
-    .aboutMe {
-        margin: 25px 25px 25px 25px;
-        display: flex;
+    .aboutMe-header {
         flex-direction: column;
+        text-align: center;
+        border: none;
     }
-    .aboutMe h1 {
+    .aboutMe  {
         text-align: center;
     }
     .myBio {
         flex-direction: column;
         border: none;
     }
+
+    .myBio h1 {
+        margin-top: 0px;
+    }
+
+    .project-header {
+        border: none;
+        text-align: center;
+        margin: auto;
+    }
+
+    .proj-row-1 {
+    height: 30vh;
+    width: 84%;
+    }
+
     .myWork{
         flex-direction: column;
         margin: 0;
     }
 
-
     .myBio p {
         text-align: center;
+    }
+
+    .myBio img {
+        width: 350px;
+        height: 350px; 
+        margin-left: 80px;
     }
     
     .work {
@@ -284,53 +298,42 @@ footer p {
         padding: 0;
         padding-left: 5px;
     }
-    footer h1{
-        width: 210px;
-        text-align: center;
-    }
 
     footer p {
         margin: 25px 5px 5px 25px;
     }
-}
 
+}
 
 @media only screen and (max-width: 768px) {
     
-    .hero-title{
-        color: white;
-        float: right;
-        margin-bottom: 0;
-        margin-right: 80px;
-        margin-top: 30%;
+    .hero-title {
         background-color: var(--secondary-color);
-        width: fit-content;
-        padding: 15px 50px;
-    }
-    .logo-container {
-        margin: 10px 30px
     }
 
     .aboutMe {
-        margin: 25px 25px 25px 25px;
-        display: flex;
         flex-direction: column;
     }
-    .aboutMe h1 {
-        text-align: center;
-    }
-    .myBio {
+
+    .aboutMe-header {
         flex-direction: column;
         border: none;
-    }
-    .myWork{
-        flex-direction: column;
-    }
-    .myWork h1 {
-    text-align: center;    }
-
-    .myBio p {
         text-align: center;
+     }
+
+    .project-header {
+        flex: none;
+        justify-content: center;
+    }
+
+    .proj-row-1 {
+    height: 30vh;
+    width: 84%;
+    }
+
+    .myWork {
+        flex-direction: column;
+        margin: 0;
     }
     
     .work {
@@ -353,19 +356,27 @@ footer p {
         flex-direction: column;
     }
 
+    .footer-title {
+       display: flex;
+       justify-content: center;
+    }
+
     .footer-contacts {
         width: fit-content;
         border: none;
         margin: 0;
         padding: 0;
         padding-left: 5px;
-    }
-    footer h1{
-        width: 210px;
-        text-align: center;
+        width: 95%;
     }
 
     footer p {
         margin: 25px 5px 5px 25px;
+    }
+
+    .footer-title h1 {
+        border: none;
+        width: fit-content;
+        margin-left: 350px;
     }
 }
