@@ -6,7 +6,6 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-
 }
 
 :root {
@@ -177,7 +176,7 @@ background-size: 100%;
 
 .project-header {
     padding-right: 25px;
-    margin-left: 85px;
+    margin-left: 80px;
     color: var(--tertiary-color);
     border-right: 3px solid var(--primary-color);
 }
@@ -190,8 +189,8 @@ footer {
     color: var(--tertiary-color);
     width: 150px;
     text-align: right;
-    padding-right: 30px;    
-    margin-left: 60px;
+    padding-right: 40px;    
+    margin-left: 38px;
     margin-top: 25px;
     border-right: 3px solid var(--primary-color);
 }
@@ -219,18 +218,13 @@ footer a {
 
 
 /* HOVER */
-
 .work:hover {
     border: 5px solid var(--tertiary-color);
     border-radius: 50px;
 }
 
-
-
-
 /* MEDIA QUERIES */
 /* 1200px */
-
 
 @media screen and (max-width: 1200px) {
     .myBio {
@@ -253,8 +247,6 @@ footer a {
 /* 980px */
 
 @media screen and (max-width: 980px) {
-
-
 
     .aboutMe {
     flex-direction: column;
@@ -377,10 +369,7 @@ footer a {
         flex-direction: column;
     }
 
-    .footer-title {
-       display: flex;
-       justify-content: center;
-    }
+
 
     .footer-contacts {
         width: fit-content;
