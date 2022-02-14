@@ -9,9 +9,9 @@
                     }
                     
                      :root {
-                        --primary-color: #93FFD8;
-                        --secondary-color: #548CFF;
-                        --tertiary-color: #7900FF;
+                        --primary-color: #7e8280;
+                        --secondary-color: #eaebee;
+                        --tertiary-color: #0d011a;
                     }
                     
                     nav {
@@ -46,13 +46,15 @@
                     }
                     
                     .hero-title {
-                        color: white;
+                        color: rgb(5, 0, 0);
                         float: right;
                         margin-top: 10%;
                         margin-right: 10%;
                         background-color: var(--secondary-color);
                         width: fit-content;
                         padding: 15px 50px;
+                        border-radius: 15px;
+
                     }
                     
                     .aboutMe img {
@@ -142,7 +144,7 @@
                     }
                     
                     .work-2 {
-                        background: url(./images/work-2.jpg) center;
+                        background: url(./images/runbuddyScreenshot.png) center;
                         background-size: contain;
                         background-size: cover;
                         background-repeat: no-repeat;
@@ -150,7 +152,7 @@
                     }
                     
                     .work-3 {
-                        background: url(./images/work-3.jpg) center;
+                        background: url(./images/schedulerScreenshot.png) center;
                         background-size: contain;
                         background-size: cover;
                         background-repeat: no-repeat;
@@ -228,7 +230,7 @@
                     /* HOVER */
                     
                     .work:hover {
-                        border: 5px solid var(--tertiary-color);
+                        border: 3px solid var(--tertiary-color);
                         border-radius: 50px;
                     }
                     /* MEDIA QUERIES */
